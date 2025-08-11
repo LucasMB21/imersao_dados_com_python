@@ -1,0 +1,22 @@
+# Ambientes Virtuais do Python
+# Ignora a pasta do ambiente virtual, não importa onde ela esteja no projeto.
+venv/
+env/
+.venv/
+.env/
+
+# Arquivos de cache e compilados do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos de configuração de IDEs e editores
+.vscode/
+.idea/
+
+# Arquivos gerados pelo Streamlit
+.streamlit/
+
+# Logs
+*.log

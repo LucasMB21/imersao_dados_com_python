@@ -1,0 +1,21 @@
+# Comandos para configurar e executar o projeto Python
+
+# --- PASSO 1: Configuração Inicial (faça isso apenas uma vez) ---
+
+# 1.1 - Criar o ambiente virtual "venv"
+python -m venv venv
+
+# 1.2 - Ativar o ambiente (necessário para o próximo passo)
+.\venv\Scripts\activate
+
+# 1.3 - Instalar as bibliotecas do projeto
+pip install -r requirements.txt
+
+
+# --- PASSO 2: Como Rodar o Projeto no Dia a Dia ---
+
+# 2.1 - Ative o ambiente virtual (faça isso TODA VEZ que abrir um novo terminal)
+.\venv\Scripts\activate
+
+# 2.2 - Execute a aplicação Streamlit
+streamlit run app.py
