@@ -13,12 +13,23 @@
   <img alt="Python" src="https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python">
 </p>
 
+<p align="center">
+  <a href="#-demonstração">Demonstração</a> •
+  <a href="#-funcionalidades">Funcionalidades</a> •
+  <a href="#-tecnologias-e-bibliotecas-utilizadas">Tecnologias</a> •
+  <a href="#-como-executar-localmente">Como Executar</a> •
+  <a href="#-links-úteis">Links Úteis</a> •
+  <a href="#-autor">Autor</a>
+</p>
+
 Este repositório contém o projeto desenvolvido durante a **Imersão Dados com Python**, com foco na análise e visualização de dados de forma interativa utilizando **Python**, **Pandas** e **Streamlit**.  
 A aplicação foi hospedada no Streamlit Cloud e está disponível para acesso online.
 
 ---
 
 ## 🚀 Demonstração
+
+Acesse a aplicação interativa online através do link abaixo:
 
 📍 **[Acesse o projeto aqui](https://lucasmb21-imersao-dados-com-python-aula-4app-arghnb.streamlit.app/)**
 
@@ -28,27 +39,29 @@ A aplicação foi hospedada no Streamlit Cloud e está disponível para acesso o
 
 | Tecnologia / Biblioteca | Uso no projeto |
 |------------------------|----------------|
-| **Python** | Linguagem principal para análise e manipulação de dados |
-| **Pandas** | Leitura, limpeza e manipulação de datasets |
-| **Streamlit** | Criação da aplicação web interativa |
-| **Matplotlib** / **Seaborn** | Geração de gráficos e visualizações de dados |
-| **NumPy** | Operações matemáticas e manipulação de arrays |
+| **Python** | Linguagem principal para análise e manipulação de dados. |
+| **Pandas** | Leitura, limpeza e manipulação de datasets. |
+| **Streamlit** | Criação da aplicação web interativa e do dashboard. |
+| **Matplotlib** / **Seaborn** | Geração de gráficos e visualizações de dados. |
+| **NumPy** | Operações matemáticas e manipulação de arrays. |
 
 ---
 
 ## 📊 Funcionalidades
 
-- 📂 Carregamento e exibição de datasets
-- 🧹 Limpeza e tratamento dos dados
-- 📈 Visualizações interativas
-- 🔍 Filtros para análise personalizada
-- 📊 Gráficos e estatísticas automáticas
+- 📂 Carregamento e exibição de datasets.
+- 🧹 Limpeza e tratamento dos dados.
+- 📈 Visualizações interativas com gráficos e tabelas.
+- 🔍 Filtros dinâmicos para análise personalizada.
+- 📊 Geração automática de gráficos e estatísticas descritivas.
 
 ---
 
 ## 📦 Como executar localmente
 
-### 1️⃣ Clone o repositório
+Siga os passos abaixo para executar o projeto em sua máquina local.
+
+**1. Clone o repositório**
 ```bash
 git clone https://github.com/LucasMB21/imersao-dados-com-python-aula-4.git
 cd imersao-dados-com-python-aula-4
@@ -81,4 +94,3 @@ Criação de dashboards com Streamlit
 Geração de gráficos com Matplotlib e Seaborn
 
 Boas práticas para organização de código Python
-
