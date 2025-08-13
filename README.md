@@ -8,7 +8,7 @@
 
 <p align="center">
   <img alt="Status" src="https://img.shields.io/badge/Status-Concluído-green?style=for-the-badge">
-  <img alt="License" src="https://img.shields.io/github/license/LucasMB21/imersao-dados-com-python-aula-4?style=for-the-badge">
+  <img alt="License" src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge">
 </p>
 
 <p align="center">
