@@ -1,65 +1,71 @@
-# 🐍 Imersão Dados com Python - Aula 4
+<h1 align="center">Dashboard Interativo com Streamlit</h1>
 
-<p align="center">
+<p align="center" id="badges">
   <a href="https://www.python.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="60" height="60"/></a>
   <a href="https://pandas.pydata.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" alt="Pandas" width="60" height="60"/></a>
   <a href="https://streamlit.io/" target="_blank"><img src="https://streamlit.io/images/brand/streamlit-mark-color.png" alt="Streamlit" width="60" height="60"/></a>
 </p>
 
-<h1 align="center">Análise de Dados com Python</h1>
-
 <p align="center">
   <img alt="Status" src="https://img.shields.io/badge/Status-Concluído-green?style=for-the-badge">
-  <img alt="Python" src="https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python">
+  <img alt="License" src="https://img.shields.io/github/license/LucasMB21/imersao-dados-com-python-aula-4?style=for-the-badge">
 </p>
 
 <p align="center">
+  <a href="#-sobre-o-projeto">Sobre</a> •
   <a href="#-demonstração">Demonstração</a> •
-  <a href="#-funcionalidades">Funcionalidades</a> •
-  <a href="#-tecnologias-e-bibliotecas-utilizadas">Tecnologias</a> •
-  <a href="#-como-executar-localmente">Como Executar</a> •
-  <a href="#-links-úteis">Links Úteis</a> •
-  <a href="#-autor">Autor</a>
+  <a href="#-tecnologias-utilizadas">Tecnologias</a> •
+  <a href="#-como-executar">Como Executar</a> •
+  <a href="#-autor">Autor</a> •
+  <a href="#-licença">Licença</a>
 </p>
 
-Este repositório contém o projeto desenvolvido durante a **Imersão Dados com Python**, com foco na análise e visualização de dados de forma interativa utilizando **Python**, **Pandas** e **Streamlit**.  
-A aplicação foi hospedada no Streamlit Cloud e está disponível para acesso online.
+---
+
+## 📖 Sobre o Projeto
+
+Este é um dashboard interativo para análise de dados, desenvolvido como projeto final da **Imersão Dados com Python**. A aplicação permite carregar, visualizar e filtrar um conjunto de dados de forma dinâmica, utilizando o poder do **Pandas** para manipulação e do **Streamlit** para a interface web.
+
+Durante o desenvolvimento, aprofundei meus conhecimentos em:
+- Manipulação e limpeza de dados com **Pandas**.
+- Criação de dashboards interativos e intuitivos com **Streamlit**.
+- Geração de gráficos com **Matplotlib** e **Seaborn**.
+- Boas práticas de organização de código e ambientes virtuais em Python.
 
 ---
 
 ## 🚀 Demonstração
 
-Acesse a aplicação interativa online através do link abaixo:
+A aplicação está hospedada no Streamlit Cloud e pode ser acessada online.
 
 📍 **[Acesse o projeto aqui](https://lucasmb21-imersao-dados-com-python-aula-4app-arghnb.streamlit.app/)**
 
+<p align="center">
+  <!-- DICA: Grave um GIF da sua aplicação em funcionamento e adicione aqui! -->
+  <!-- <img src="caminho/para/seu/demo.gif" alt="Demonstração da Aplicação"> -->
+</p>
+
 ---
 
-## 🛠️ Tecnologias e Bibliotecas Utilizadas
+## 🛠️ Tecnologias Utilizadas
 
 | Tecnologia / Biblioteca | Uso no projeto |
 |------------------------|----------------|
-| **Python** | Linguagem principal para análise e manipulação de dados. |
-| **Pandas** | Leitura, limpeza e manipulação de datasets. |
-| **Streamlit** | Criação da aplicação web interativa e do dashboard. |
-| **Matplotlib** / **Seaborn** | Geração de gráficos e visualizações de dados. |
+| **Python** | Linguagem principal para a lógica da aplicação. |
+| **Pandas** | Biblioteca para leitura, limpeza e manipulação dos dados. |
+| **Streamlit** | Framework para a criação da aplicação web interativa. |
+| **Matplotlib** / **Seaborn** | Bibliotecas para geração de gráficos e visualizações. |
 | **NumPy** | Operações matemáticas e manipulação de arrays. |
 
 ---
 
-## 📊 Funcionalidades
-
-- 📂 Carregamento e exibição de datasets.
-- 🧹 Limpeza e tratamento dos dados.
-- 📈 Visualizações interativas com gráficos e tabelas.
-- 🔍 Filtros dinâmicos para análise personalizada.
-- 📊 Geração automática de gráficos e estatísticas descritivas.
-
----
-
-## 📦 Como executar localmente
+## 📦 Como Executar
 
 Siga os passos abaixo para executar o projeto em sua máquina local.
+
+**Pré-requisitos:**
+- [Git](https://git-scm.com/)
+- [Python 3.10+](https://www.python.org/downloads/)
 
 **1. Clone o repositório**
 ```bash
