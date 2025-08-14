@@ -16,6 +16,7 @@
   <a href="#-demonstração">Demonstração</a> •
   <a href="#-tecnologias-utilizadas">Tecnologias</a> •
   <a href="#-como-executar">Como Executar</a> •
+  <a href="#-aprendizados">Aprendizados</a> •
   <a href="#-autor">Autor</a> •
   <a href="#-licença">Licença</a>
 </p>
@@ -24,7 +25,8 @@
 
 ## 📖 Sobre o Projeto
 
-Este é um dashboard interativo para análise de dados, desenvolvido como projeto final da **Imersão Dados com Python**. A aplicação permite carregar, visualizar e filtrar um conjunto de dados de forma dinâmica, utilizando o poder do **Pandas** para manipulação e do **Streamlit** para a interface web.
+Este é um dashboard interativo para análise de dados, desenvolvido como projeto final da **Imersão Dados com Python**.  
+A aplicação permite carregar, visualizar e filtrar um conjunto de dados de forma dinâmica, utilizando o poder do **Pandas** para manipulação e do **Streamlit** para a interface web.
 
 Durante o desenvolvimento, aprofundei meus conhecimentos em:
 - Manipulação e limpeza de dados com **Pandas**.
@@ -36,14 +38,9 @@ Durante o desenvolvimento, aprofundei meus conhecimentos em:
 
 ## 🚀 Demonstração
 
-A aplicação está hospedada no Streamlit Cloud e pode ser acessada online.
+A aplicação está hospedada no Streamlit Cloud e pode ser acessada online:
 
 📍 **[Acesse o projeto aqui](https://lucasmb21-imersao-dados-com-python-aula-4app-arghnb.streamlit.app/)**
-
-<p align="center">
-  <!-- DICA: Grave um GIF da sua aplicação em funcionamento e adicione aqui! -->
-  <!-- <img src="caminho/para/seu/demo.gif" alt="Demonstração da Aplicação"> -->
-</p>
 
 ---
 
@@ -67,28 +64,30 @@ Siga os passos abaixo para executar o projeto em sua máquina local.
 - [Git](https://git-scm.com/)
 - [Python 3.10+](https://www.python.org/downloads/)
 
-**1. Clone o repositório**
+**1️⃣ Clone o repositório**
 ```bash
 git clone https://github.com/LucasMB21/imersao-dados-com-python-aula-4.git
 cd imersao-dados-com-python-aula-4
 ```
 
-2️⃣ Crie e ative um ambiente virtual
-
+**2️⃣ Crie e ative um ambiente virtual**
+```bash
 python -m venv venv
 # Windows
 venv\Scripts\activate
 # Linux/Mac
 source venv/bin/activate
+```
 
-3️⃣ Instale as dependências
-
+**3️⃣ Instale as dependências**
+```bash
 pip install -r requirements.txt
+```
 
-4️⃣ Execute o projeto
-
+**4️⃣ Execute o projeto**
+```bash
 streamlit run app.py
-
+```
 
 📚 Aprendizados
 Durante o desenvolvimento deste projeto, aprofundei conhecimentos sobre:
@@ -100,3 +99,17 @@ Criação de dashboards com Streamlit
 Geração de gráficos com Matplotlib e Seaborn
 
 Boas práticas para organização de código Python
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por **Lucas Carneiro**.  
+Entre em contato pelo [LinkedIn](https://www.linkedin.com/in/lucasmb21/) ou [GitHub](https://github.com/LucasMB21).
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença **MIT**.  
+Consulte o arquivo [LICENSE](LICENSE) para mais informações.
