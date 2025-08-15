@@ -104,7 +104,7 @@ Boas práticas para organização de código Python
 
 ## 👨‍💻 Autor
 
-Desenvolvido por **Lucas Carneiro**.  
+Desenvolvido por **Lucas Rodrigues**.  
 Entre em contato pelo [LinkedIn](https://www.linkedin.com/in/lucasmb21/) ou [GitHub](https://github.com/LucasMB21).
 
 ---
